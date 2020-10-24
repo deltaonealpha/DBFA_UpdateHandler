@@ -1,0 +1,10 @@
+- Introducing DBFA 'First Time Setup' wizard.
+- Introducing DBFA Backup Restoration.
+- All file references (paths) have been changed to automatically detect the installation directory.
+- Added login for DBFA Employee Manager
+- Passwords/ tokens/ IDs are now removed from the main code.
+- Schedule is now sent to a Telegram group housing all employees.
+- DBFA now has a unified sub-menu design.
+- Reduced per-boot-cycle time by 2 seconds and main boot timings by 4-5 seconds.
+- MD5 and UPDATER repo, and the service status pages have now been changed.
+- Updated GitHub releases with the new source .zip and .exe for DBFA Deployment.
