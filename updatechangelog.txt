@@ -1,10 +1,101 @@
-- Introducing DBFA 'First Time Setup' wizard.
-- Introducing DBFA Backup Restoration.
-- All file references (paths) have been changed to automatically detect the installation directory.
-- Added login for DBFA Employee Manager
-- Passwords/ tokens/ IDs are now removed from the main code.
-- Schedule is now sent to a Telegram group housing all employees.
-- DBFA now has a unified sub-menu design.
-- Reduced per-boot-cycle time by 2 seconds and main boot timings by 4-5 seconds.
-- MD5 and UPDATER repo, and the service status pages have now been changed.
-- Updated GitHub releases with the new source .zip and .exe for DBFA Deployment.
+DBFA Inception 1.0
+deltaonealpha | November 2020
+
+
+Donnager. Inception. DBFA.
+
+Successor to our earlier "Donnager" series of builds (DBFA 1 to 8), the INCEPTION is here.
+With Inception, we are releasing what we consider the first truly mature build of DBFA, ready for prime-time usage and bug-tested to the dot. 
+
+Presenting, DBFA INCEPTION 1.0.
+
+Changelog:
+Quirky Highlights:
+-        Presenting SUPERCACHING: Unlike other codes which refer db values for every product, thereby adding time delay, DBFA fetches all details when the billing is started, and caches the data in its memory, thereby greatly increasing speed and reliability. SUPERCACHING is dynamically refreshed whenever the source is changed.
+
+-        DBFA now maintains a “store group” with all employees where the schedule is sent daily.
+
+
+Store Telegram Group
+
+
+-        The way DBFA handles product listing has been completely revamped: Product listing has been moved to database storage.
+
+-        You can now add a new product listing from DBFA itself.
+
+-        DBFA now automatically detects its installation directory, even if moved from the original place.
+
+-        Presenting login accounts control, leading security measures and more, scroll down!
+
+-----------------
+
+
+
+Time and Speed:
+-        Optimized DBFA to boot 46% faster! (9.9 seconds faster (19 seconds >>> 10.1 seconds)).
+
+-        Reduced menu loading time by 2 seconds.
+
+-----------------
+
+
+
+Updater & Deployment:
+-        Presenting DBFA Backup & Switch v2.0 with backup restoration. Restoration needs the backup installation’s admin password to restore. Backup metadata is scanned, and files are updated accordingly.
+
+
+File dialog opens to allow the user to select the backup package
+
+
+-        UPDATER 2.0 not only downloads updates on its own, it can also automatically deploy update files, increment version IDs, and make relevant data structure changes and clean-up post updating DBFA. The update changelog is also shown prior to obtaining update confirmation from the user.
+
+[Yes we don't choke you with "UPDATE NOW YOU CUNT" prompts 😉 ]
+
+
+DBFA Updater v2.0 - Screenshot showing the update process
+-----------------
+
+
+
+Security & Security Dashboard:
+-        Presenting DBFA Login Accounts: Multiple accounts can now be used to log into DBFA (1 x admin-level; unlimited cashier-level) with restricted access for non-admins. Login script has a checkbox to choose from, though usernames can still be typed.
+
+
+New login page showing multi-account login
+-        Presenting the DBFA Security Dashboard: Gives you a visual representation of program and dependencies health, with security-related options (clear records/ change passwords/ encryption toggle, 2FA toggle/ create login accounts)
+
+
+The new DBFA Security Dashboard - when everything's fine
+
+The new DBFA Security Dashboard when an important criteria isn't met
+-        Employee Manager now needs administrator authentication.
+
+-----------------
+
+
+
+Quality of Life Improvements:
+-        INCEPTION 1.0’s boot-screen incorporates our new design language. (image in the starting)
+
+-        Rectified all program/ webhook/ external bugs and reconfigured DBFA to avoid crashes.
+
+-        “View License” has now been merged with “About DBFA” and service status page has been moved here (tap to visit).
+
+
+Screenshot of the new status page
+-        The menu has been reorganized for better categorical sorting.
+
+-        Added check for internet connection (displays helpful info when disconnected instead of crashing out).
+
+
+Helpful error message when internet is not connected
+-        All password/ key references have been removed from the driver code. (lmao bruh moment for it being there in the first place)
+
+-        All menu and table designs are now unified across DBFA.
+
+-        Added option - "View Salary Payment Records"
+
+
+
+
+EDIT
